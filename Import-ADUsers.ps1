@@ -36,7 +36,10 @@ try {
         $nom = $user.Nom
         $noempl = $user.NoEmpl
         $admin = $user.Admin
+        $nom_user = ($prenom.substring(0,1) + $nom.substring(0,4)).ToLower()
+        New-ADUser 
     } 
+
 }
 catch {
     
