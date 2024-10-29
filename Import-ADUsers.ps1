@@ -74,4 +74,5 @@ catch {
     # Si l'utilisateur est identifié comme étant administrateur, l'ajouter au groupe d'administrateurs du domaine
     
     
+    
  
